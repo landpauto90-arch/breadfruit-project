@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Breadfruit Legacy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #f1f5f9;
+
+      /* 🌿 Background image */
+      background-image: url('breadfruit.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    /* Dark overlay so text is readable */
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      padding: 20px;
+      color: #22c55e;
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .scene {
+      background: rgba(30, 41, 59, 0.8);
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    .label {
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<header>
+  Breadfruit Legacy 🌿
+</header>
+
+<section>
+
+  <div class="scene">
+    <p class="label">Opening:</p>
+    <p>The breadfruit tree stands tall in the Caribbean sun...</p>
+  </div>
+
+  <div class="scene">
+    <p class="label">Meaning:</p>
+    <p>A symbol of food, culture, and survival across generations.</p>
+  </div>
+
+  <div class="scene">
+    <p class="label">Nutrition:</p>
+    <p>Rich in fiber, carbs, and potassium.</p>
+  </div>
+
+  <div class="scene">
+    <p class="label">Closing:</p>
+    <p>More than a tree — it is a legacy.</p>
+  </div>
+
+</section>
+
+<footer>
+  © Breadfruit Legacy Project
+</footer>
+
+</div>
+
+</body>
+</html>
